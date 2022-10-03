@@ -1,0 +1,14 @@
+﻿@page "/H2"
+
+<PageTitle>H2</PageTitle>
+
+<MudBreadcrumbs Items="_items"></MudBreadcrumbs>
+
+@code {
+    private List<BreadcrumbItem> _items = new List<BreadcrumbItem>
+    {
+        new BreadcrumbItem("Home", href: "/"),
+        new BreadcrumbItem("Link 1", href: "H1"),
+        new BreadcrumbItem("Link 2", href: null, disabled: true)
+    };
+}
