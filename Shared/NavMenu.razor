@@ -2,4 +2,25 @@
     <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
     <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>
     <MudNavLink Href="fetchdata" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.List">Fetch data</MudNavLink>
+    <MudPaper Width="250px" Class="py-3 mb-4" Elevation="0">
+        <MudNavMenu>
+            <MudNavGroup Title="HW" @bind-Expanded=_isExpanded>
+                <MudNavLink Href="/H1">H1</MudNavLink>
+                <MudNavLink Href="/H2">H2</MudNavLink>
+                <MudNavLink Href="/H3">H3</MudNavLink>
+                <MudNavLink Href="/H4">H4</MudNavLink>
+                <MudNavLink Href="/H5">H5</MudNavLink>
+                <MudNavLink Href="/H6">H6</MudNavLink>
+                <MudNavLink Href="/H7">H7</MudNavLink>
+                <MudNavLink Href="/H8">H8</MudNavLink>
+                <MudNavLink Href="/H9">H9</MudNavLink>
+                <MudNavLink Href="/H10">H10</MudNavLink>
+
+            </MudNavGroup>
+        </MudNavMenu>
+    </MudPaper>
+
+    @code {
+        bool _isExpanded = true;
+    }
 </MudNavMenu>

@@ -10,4 +10,10 @@
     <PackageReference Include="MudBlazor" Version="6.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Pages\H5.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>
